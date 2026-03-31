@@ -12,9 +12,6 @@ Technical reference for agents. Aggregates Token metadata, NFT holders, address 
 - Ethereum: `https://api.zan.top/data/v1/eth/mainnet/{apiKey}`
 - BNB Chain: `https://api.zan.top/data/v1/bsc/mainnet/{apiKey}`
 - Polygon: `https://api.zan.top/data/v1/polygon/mainnet/{apiKey}`
-- Arbitrum: `https://api.zan.top/data/v1/arbitrum/mainnet/{apiKey}`
-- Optimism: `https://api.zan.top/data/v1/optimism/mainnet/{apiKey}`
-- Base: `https://api.zan.top/data/v1/base/mainnet/{apiKey}`
 
 **Request format:**
 ```json

@@ -1,0 +1,24 @@
+{
+  "name": "zan-blockchain-skills",
+  "owner": {
+    "name": "ZAN Team",
+    "url": "https://zan.top"
+  },
+  "metadata": {
+    "description": "Blockchain skills for AI agents — ZAN RPC endpoints (20+ chains), Advanced Data API, Solana Trading Boost, x402 pay-per-call via USDC",
+    "version": "1.0.0",
+    "repository": "https://github.com/ZanTeam/zan-blockchain-skills"
+  },
+  "plugins": [
+    {
+      "name": "zan-blockchain-skills",
+      "description": "ZAN blockchain infrastructure and x402 protocol integration for AI agents: RPC endpoints for 20+ chains, NFT/Token Data API, Solana Trading Boost, and x402 pay-per-call RPC via USDC wallet authentication",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/zan-blockchain-skill",
+        "./skills/x402-integration-skill"
+      ]
+    }
+  ]
+}

@@ -164,6 +164,17 @@ See [references/operational.md](references/operational.md) for details.
 | Solana transaction acceleration | **Trading Boost** |
 | Quota, usage, service status | **Operational** |
 
+## Alternative Access: x402 Pay-Per-Call
+
+If the user **does not have an API Key** or prefers wallet-based pay-per-call access, use the **[x402 Integration Skill](../x402-integration-skill/SKILL.md)** instead. It provides the same RPC capabilities but authenticates with an EVM/Solana wallet and settles in on-chain USDC — no registration needed.
+
+| Dimension | This Skill (API Key) | x402 Skill |
+|---|---|---|
+| Registration | Required (ZAN Console) | Not required |
+| Authentication | API Key in URL | Wallet signature (SIWE/SIWS) |
+| Payment | Subscription / prepaid | Pay-per-call USDC |
+| Best for | Stable workloads, enterprise | AI Agents, experiments, dynamic |
+
 ## Ambiguity Resolution
 
 If user intent is unclear, ask:
@@ -171,6 +182,7 @@ If user intent is unclear, ask:
 - Native balance or token balance? (`eth_getBalance` vs `zan_getTokenBalanceByOwner`)
 - Raw result or structured analysis?
 - Need code examples?
+- Do you have an API Key, or prefer x402 wallet-based access?
 
 ## Risk Disclaimer
 
