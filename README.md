@@ -213,7 +213,6 @@ Copyright 2024-2026 ZAN Team
 ## 参考资料
 
 - [Agent Skills Specification](https://agentskills.io/specification)
-- [QuickNode Blockchain Skills](https://github.com/quiknode-labs/blockchain-skills)
 - [x402 Protocol](https://x402.org)
 - [ZAN 官网](https://zan.top)
 - [ZAN API 文档](https://docs.zan.top/reference)

@@ -2,3 +2,8 @@
 *.swp
 *.swo
 *~
+
+.env
+.env.*
+*.pem
+*.key
